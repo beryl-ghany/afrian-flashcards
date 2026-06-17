@@ -1,18 +1,70 @@
-# React + Vite
+# Web Development Project 2 - *African Countries & Capitals Flashcards*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Beryl Ghany**
 
-Currently, two official plugins are available:
+This web app: **An interactive flashcard application that helps users learn African countries and their capitals. Users can click cards to flip between the country and its capital and use a button to view a random new card.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: **4** hours spent in total
 
-## React Compiler
+## Required Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The following **required** functionality is completed:
 
-Note: This will impact Vite dev & build performances.
+* [x] **The app displays the title of the card set, a short description, and the total number of cards**
 
-## Expanding the ESLint configuration
+  * [x] Title of card set is displayed
+  * [x] A short description of the card set is displayed
+  * [x] A list of card pairs is created
+  * [x] The total number of cards in the set is displayed
+  * [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* [x] **A single card at a time is displayed**
+
+  * [x] Only one half of the information pair is displayed at a time
+
+* [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
+
+  * [x] Clicking on a card flips it over, showing the back with corresponding information
+  * [x] Clicking on a flipped card again flips it back, showing the front
+
+* [x] **Clicking on the next button displays a random new card**
+
+## Optional Features
+
+The following **optional** features are implemented:
+
+* [x] Cards contain images in addition to or in place of text
+
+  * [x] All cards include country flag images
+
+* [x] Cards have different visual styles such as color based on their category
+
+  * [x] Difficulty categories (Easy, Medium, Hard) are represented using different card colors
+
+## Additional Features
+
+The following **additional** features are implemented:
+
+* [x] 3D card flip animation
+* [x] Twelve African country-capital flashcards
+* [x] Randomized card selection that avoids immediately repeating the current card
+* [x] Responsive card design with hover effects
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/AqgEqSF"  ><a href="//imgur.com/a/AqgEqSF">Walkthru VIDEO 1</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://i.imgur.com/AqgEqSF.gif" title="Video Walkthrough" alt="Video Walkthrough" />
+
+GIF created with **ScreenToGif**
+
+## Notes
+
+One challenge was implementing a realistic card flip animation without causing the text to appear mirrored. Another challenge was creating a random card selection system while preventing the same card from appearing consecutively.
+
+## License
+
+Copyright 2026 Beryl Ghany
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
