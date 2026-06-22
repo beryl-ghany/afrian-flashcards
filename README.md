@@ -68,3 +68,50 @@ Copyright 2026 Beryl Ghany
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
+
+
+---
+
+# Web Development Project 3 - Flashcards! Part 2
+
+Submitted by: **Beryl Ghany**
+
+This web app: **An enhanced version of the African Countries & Capitals Flashcards application that allows users to submit guesses, receive answer feedback, navigate through cards in order, shuffle the deck, and track answer streaks.**
+
+Time spent: **2** additional hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+* [x] The user can submit a guess into an input box before seeing the flipside of a card
+
+  * [x] Application features a clearly labeled input box with a submit button where users can type in a guess
+  * [x] Clicking on the submit button with an incorrect answer shows visual feedback that it is wrong
+  * [x] Clicking on the submit button with a correct answer shows visual feedback that it is correct
+
+* [x] The user can navigate through an ordered list of cards
+
+  * [x] A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  * [x] A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
+  * [x] Both the next and back buttons have visual indication when the user is at the beginning or end of the list
+
+## Stretch Features
+
+The following **stretch** features are implemented:
+
+* [x] Users can use a shuffle button to randomize the order of the cards
+
+* [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+
+* [x] A counter displays the user's current and longest streak of correct responses
+
+## Video Walkthrough
+
+Here's a walkthrough of the new functionality implemented in Part 2:
+
+<img src="YOUR_NEW_GIF_HERE.gif" title="Part 2 Walkthrough" alt="Part 2 Walkthrough" />
+
+## Notes
+
+A challenge was managing multiple React state variables for answer checking, navigation, streak tracking, and card flipping while keeping the user experience smooth and responsive.
