@@ -90,3 +90,55 @@ button {
 button:hover {
   background: #0d47a1;
 }
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.nav-buttons,
+.extra-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+}
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1976d2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
